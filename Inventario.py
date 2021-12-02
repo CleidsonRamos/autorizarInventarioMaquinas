@@ -9,7 +9,7 @@ import ctypes # biblioteca utilizada para mostrar um alerta
 driver = webdriver.Chrome('C:\Python39\Scripts\chromedriver.exe')
 
 # acessa o sistema de inventário
-driver.get('https://arfacieg.acsoluti.com.br/inventario-maquina/autorizar-inventario')
+driver.get('https://nomedaar.acsoluti.com.br/inventario-maquina/autorizar-inventario')
 
 # clica no botão Usar Certificado Digital
 driver.find_element_by_id('precert').click()
